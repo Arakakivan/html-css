@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+
+    <style>
+        @font-face {
+            font-family: 'spaceage';
+            src: url('fonte/space age.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /*
+            Tipos de FORMAT()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (apple advanced typography)
+        */
+
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1{
+            font-family: 'spaceage', sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 4em;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio magnam labore nobis odit ut quidem cupiditate voluptas, mollitia nulla iusto quo modi nesciunt maxime explicabo dolorem voluptatem iure molestiae excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur magni molestias aperiam eveniet. Distinctio tempore iure temporibus doloremque, eveniet delectus illo sapiente ratione amet nesciunt repellendus ipsam optio perferendis atque!</p>
+</body>
+</html>

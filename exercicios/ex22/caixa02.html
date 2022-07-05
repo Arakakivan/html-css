@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags </title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: dimgray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            color: black;
+            margin: 10px;
+        }
+        
+       nav{
+           background-color: lightslategrey;
+           padding: 2px;
+           
+           box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.334);
+       }
+
+       nav > a{
+        text-decoration: none;
+        color:brown;
+        margin-right: 10px;
+       }
+       nav > a:hover{
+           text-decoration: underline;
+       }
+       main{
+           background-color: whitesmoke; 
+           padding: 10px;
+           color:black;
+           margin: 10px;
+           border-radius: 10px 0px;
+           box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.334);
+       }
+       section{
+           background-color:darkgrey;
+           border: 2px solid black;
+       }
+       aside{
+           background-color: darkgrey;
+           
+           
+       }
+       footer{
+           background-color: lightslategrey;
+           color:lightgrey;
+           text-align: center;
+           padding: 10px;
+       }
+       footer > p{
+           margin: 1px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>    
+    <main>
+        <section id="esportes">Esportes</section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam temporibus quaerat voluptatem, incidunt placeat cumque provident maiores nesciunt tempore voluptates quasi minima quidem voluptatibus eaque id deleniti aliquam aspernatur ea.</p>
+        <section id="politica">Politica</section>
+        <article>
+            <h2>Noticias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolor quo distinctio totam quaerat voluptate quae. Sint, nemo molestias praesentium, reiciendis quidem totam velit doloribus hic odit quos distinctio? Rerum.</p>
+            <aside>
+              <p>Escrito por José Loro</p>
+            </aside>
+        </article>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Arakivan</p>
+    </footer>
+</body>
+</html>
