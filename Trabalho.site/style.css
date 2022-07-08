@@ -7,7 +7,22 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: white;
+    
+}
+
+main{
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    background-image: url('imagens/inicial.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px;
 }
 
 div{
@@ -24,11 +39,19 @@ div{
 }
 
 h1{
-    margin: auto;
+    margin-left: 150px;
     font-size: 3.2em;
 }
 
 h2{
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(207, 0, 0), transparent);
+    border-radius: 5px;
+}
+
+h3{
+    text-align: center;
     padding: 20px;
 }
 
@@ -52,21 +75,72 @@ nav > a:hover{
     transition-duration: 0.3s;
 }
 
-main{
-    padding: 20px;
-    margin: auto;
-}
-
 section p{
     padding: 20px 0px;
-    text-align: justify;
+    text-align: center;
     text-indent: 30px;
     line-height: 1.5em;
 }
 
 .imagem{
+    display: inline-block;
     margin: auto;
-    width: 330px;
-    height: 230px;
+    width: 280px;
+    height: 180px;
     padding: 10px;
+    padding-left: 20px;
+}
+
+.video{
+    margin: auto;
+    padding: 30px;
+    padding-left: 214px;
+}
+
+.mapa{
+    padding: 30px;
+    padding-left: 205px;
+}
+
+.comentario{
+    margin-left: 100px;
+    width: 750px;
+    height: 200px;
+}
+
+.button{
+    margin-left: 790px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.iden{
+    padding: 10px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.iden:hover{
+    background-color: rgba(139, 0, 0, 0.493);
+    color: white;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+}
+
+footer a:hover{
+    color:rgb(207, 0, 0);
 }
