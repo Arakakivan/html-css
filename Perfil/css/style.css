@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fira code';
+    src: url(../assets/font.firacode/FiraCode-Medium.ttf) format('truetype');
+}
+
+:root{
+    --cor1: #260104;
+    --cor2: #730220;
+    --cor3: #5F1B8C;
+    --cor4: #6F36BF;
+    --cor5: #F2F2F0;
+    --font1: 'fira code', Arial, Helvetica, sans-serif;
+    
+
+}
+
+header{
+    background-color: var(--cor4);
+   
+
+}
+
+nav{
+    text-align: right;
+}
+
+a{
+    color: var(--cor5);
+    font-family: var(--font1);
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#button{
+    background-color: var(--cor2);
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 20px;
+    box-shadow: 5px 5px 1px black;
+}
